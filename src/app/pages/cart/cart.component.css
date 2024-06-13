@@ -1,0 +1,24 @@
+.cart-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-image {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.item-detail {
+  padding: 10px;
+}
+mat-card {
+  padding: 0;
+  overflow: hidden;
+}

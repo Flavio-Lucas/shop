@@ -1,0 +1,15 @@
+<div class="cart-list">
+  <mat-card *ngFor="let item of cartItems" class="cart-item">
+    <img [src]="item.image" alt="{{ item.productName }}" class="cart-image">
+    <div class="item-details">
+      <h3>{{ item.productName }}</h3>
+      <p>Price per item: {{ item.price | currency }}</p>
+      <p>Quantity: {{ item.quantity }}</p>
+      <p>Item total: {{ item.quantity * item.price | currency }}</p>
+    </div>
+  </mat-card>
+</div>
+
+<div class="total-section">
+  <p>Total to pay: {{ totalPrice | currency }}</p> <!-- Adicione o total a pagar -->
+</div>

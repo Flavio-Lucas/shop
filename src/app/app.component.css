@@ -1,0 +1,36 @@
+:host {
+  max-height: 100%;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.mat-toolbar button {
+  margin-right: 16px;
+}
+
+.mat-toolbar .spacer {
+  flex: 1;
+}
+
+.mat-sidenav-content {
+  padding: 20px;
+  min-height: calc(100vh - 4rem);
+}
+
+mat-toolbar {
+  height: 4rem;
+}
